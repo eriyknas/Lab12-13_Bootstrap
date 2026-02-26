@@ -235,3 +235,19 @@ backdrop-filter: blur(10px);
 .timeline-item::before {
 animation: pulse 2s infinite;
 }
+.avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #667eea;
+}
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #667eea;
+    transition: color 0.3s;
+}
+.social-icon:hover {
+    color: #764ba2;
+}
